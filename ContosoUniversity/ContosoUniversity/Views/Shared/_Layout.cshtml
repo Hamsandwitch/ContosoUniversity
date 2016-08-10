@@ -6,7 +6,6 @@
     <title>@ViewBag.Title - Contoso University</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-    @Scripts.Render("~/bundles/bootstrap")
 </head>
 
 <body>
@@ -40,7 +39,7 @@
                             <li>
                                 <a href="index.html#">
                                     <div class="task-info">
-                                        <div class="desc">E</div>
+                                        <div class="desc">Figure A</div>
                                         <div class="percent">40%</div>
                                     </div>
                                     <div class="progress progress-striped">
@@ -53,7 +52,7 @@
                             <li>
                                 <a href="index.html#">
                                     <div class="task-info">
-                                        <div class="desc">Database Update</div>
+                                        <div class="desc">Figure B</div>
                                         <div class="percent">60%</div>
                                     </div>
                                     <div class="progress progress-striped">
@@ -66,7 +65,7 @@
                             <li>
                                 <a href="index.html#">
                                     <div class="task-info">
-                                        <div class="desc">Product Development</div>
+                                        <div class="desc">Figure C</div>
                                         <div class="percent">80%</div>
                                     </div>
                                     <div class="progress progress-striped">
@@ -79,7 +78,7 @@
                             <li>
                                 <a href="index.html#">
                                     <div class="task-info">
-                                        <div class="desc">Payments Sent</div>
+                                        <div class="desc">Figure D</div>
                                         <div class="percent">70%</div>
                                     </div>
                                     <div class="progress progress-striped">
@@ -114,8 +113,8 @@
                 <!-- sidebar menu start-->
                 <ul class="sidebar-menu" id="nav-accordion">
 
-                    <p class="centered"><a href="profile.html"><img src="assets/img/ui-sam.jpg" class="img-circle" width="60"></a></p>
-                    <h5 class="centered">Marcel Newman</h5>
+                    <p class="centered"><a href="profile.html"><img src="Content/img/ui-sam.jpg" class="img-circle" width="60"></a></p>
+                    <h5 class="centered">CURRENT USER</h5>
 
                     <li class="mt">
                         <a class="active" href="index.html">
@@ -193,7 +192,7 @@
             </div>
         </aside>
         <!--sidebar end-->
-
+    </section>
         <div class="container body-content">
             @RenderBody()
             <hr />
